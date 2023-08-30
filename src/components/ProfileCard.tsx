@@ -1,9 +1,10 @@
 "use client";
 
-import appwriteService from "@/appwrite/config";
-import { Models } from "appwrite";
-import Link from "next/link";
 import React, { useEffect, useState } from "react";
+import Link from "next/link";
+import { Models } from "appwrite";
+
+import appwriteService from "@/appwrite/config";
 import Avatar from "./Avatar";
 
 const ProfileCard = () => {
